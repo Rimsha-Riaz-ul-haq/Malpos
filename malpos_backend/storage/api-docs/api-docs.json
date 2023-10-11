@@ -1,0 +1,211 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "CdBranch API",
+        "version": "1.0"
+    },
+    "paths": {
+        "/cdbranch": {
+            "get": {
+                "summary": "Get a list of CdBranches",
+                "description": "Display a listing of the resource.",
+                "operationId": "751038f6a353536e3e55aff923b88497",
+                "responses": {
+                    "200": {
+                        "description": "List of CdBranches"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create a new CdBranch",
+                "description": "Store a newly created resource in storage.",
+                "operationId": "bcc7c18e014687a3385fb209f4b5a033",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "is_active": {
+                                        "type": "boolean"
+                                    },
+                                    "cd_brand_id": {
+                                        "type": "integer"
+                                    },
+                                    "gd_country_id": {
+                                        "type": "integer"
+                                    },
+                                    "gd_region_id": {
+                                        "type": "integer"
+                                    },
+                                    "td_currency_id": {
+                                        "type": "integer"
+                                    },
+                                    "created_by": {
+                                        "type": "integer"
+                                    },
+                                    "updated_by": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "CdBranch created successfully"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    }
+                }
+            }
+        },
+        "/cdbranch/{cdBranch}": {
+            "get": {
+                "summary": "Get a specific CdBranch by ID",
+                "description": "Display the specified resource.",
+                "operationId": "c7cf355d9c079091a5ca0c80c93fee13",
+                "parameters": [
+                    {
+                        "name": "cdBranch",
+                        "in": "path",
+                        "description": "ID of the CdBranch",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "CdBranch details"
+                    },
+                    "404": {
+                        "description": "CdBranch not found"
+                    }
+                }
+            }
+        },
+        "/cdbranch/{id}/edit": {
+            "get": {
+                "summary": "Show the form for editing a CdBranch by ID",
+                "description": "Show the form for editing the specified resource.",
+                "operationId": "90c2bd2ba608d675aaaa6ae05b984fbb",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID of the CdBranch",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Edit form for CdBranch"
+                    },
+                    "404": {
+                        "description": "CdBranch not found"
+                    }
+                }
+            }
+        },
+        "/cdbranch/{id}": {
+            "put": {
+                "summary": "Update a CdBranch by ID",
+                "description": "Update the specified resource in storage.",
+                "operationId": "145f7f4434c6d17ed984a0e618b37ec1",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID of the CdBranch",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "is_active": {
+                                        "type": "boolean"
+                                    },
+                                    "cd_brand_id": {
+                                        "type": "integer"
+                                    },
+                                    "gd_country_id": {
+                                        "type": "integer"
+                                    },
+                                    "gd_region_id": {
+                                        "type": "integer"
+                                    },
+                                    "td_currency_id": {
+                                        "type": "integer"
+                                    },
+                                    "created_by": {
+                                        "type": "integer"
+                                    },
+                                    "updated_by": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "CdBranch updated successfully"
+                    },
+                    "400": {
+                        "description": "Bad request"
+                    },
+                    "404": {
+                        "description": "CdBranch not found"
+                    }
+                }
+            },
+            "delete": {
+                "summary": "Delete a CdBranch by ID",
+                "description": "Remove the specified resource from storage.",
+                "operationId": "7f1f7cc8f957c9f22ab374d58746ec71",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "ID of the CdBranch",
+                        "required": true,
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "CdBranch deleted successfully"
+                    },
+                    "404": {
+                        "description": "CdBranch not found"
+                    }
+                }
+            }
+        }
+    }
+}

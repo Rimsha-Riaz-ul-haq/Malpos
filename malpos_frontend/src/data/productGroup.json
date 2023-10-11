@@ -1,0 +1,69 @@
+{
+  "pageTitle": "Product Groups",
+  "breadcrumb": [
+    { "path": "/", "text": "home" },
+    { "text": "product" },
+    { "text": "list" }
+  ],
+  "dotsMenu": {
+    "dots": "more_horiz",
+    "dropdown": [
+      { "icon": "edit", "text": "edit" },
+      { "icon": "delete", "text": "delete" },
+      { "icon": "download", "text": "download" }
+    ]
+  },
+  "product": {
+    "thead": ["name", "client", "brand", "branch", "desc", "action"],
+    "tbody": [
+      {
+        "item": 1,
+        "id": "Drinks",
+        "src": "images/product/drink.jpg",
+        "alt": "Drinks",
+        "heading": "Drinks",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "desc": "A chilled and liquid group",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 1,
+        "id": "Drinks",
+        "src": "images/product/drink.jpg",
+        "alt": "Drinks",
+        "heading": "Drinks",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "desc": "A chilled and liquid group",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 1,
+        "id": "Drinks",
+        "src": "images/product/drink.jpg",
+        "alt": "Drinks",
+        "heading": "Drinks",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "desc": "A chilled and liquid group",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 1,
+        "id": "Drinks",
+        "src": "images/product/drink.jpg",
+        "alt": "Drinks",
+        "heading": "Drinks",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "desc": "A chilled and liquid group",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      }
+    ]
+  }
+}

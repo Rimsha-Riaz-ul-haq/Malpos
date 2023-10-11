@@ -1,0 +1,73 @@
+{
+  "pageTitle": "Products",
+  "breadcrumb": [
+    { "path": "/", "text": "home" },
+    { "text": "product" },
+    { "text": "list" }
+  ],
+  "dotsMenu": {
+    "dots": "more_horiz",
+    "dropdown": [
+      { "icon": "edit", "text": "edit" },
+      { "icon": "delete", "text": "delete" },
+      { "icon": "download", "text": "download" }
+    ]
+  },
+  "product": {
+    "thead": ["name", "client", "brand", "branch", "cost", "price", "action"],
+    "tbody": [
+      {
+        "item": 1,
+        "id": "rice",
+        "src": "images/product/rice.jpg",
+        "alt": "rice",
+        "heading": "Rice",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "costPrice": "$19.00",
+        "price": "$19.00",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 1,
+        "id": "rice",
+        "src": "images/product/rice.jpg",
+        "alt": "rice",
+        "heading": "Rice",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "costPrice": "$19.00",
+        "price": "$19.00",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 1,
+        "id": "rice",
+        "src": "images/product/rice.jpg",
+        "alt": "rice",
+        "heading": "Rice",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "costPrice": "$19.00",
+        "price": "$19.00",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      },
+      {
+        "item": 1,
+        "id": "rice",
+        "src": "images/product/rice.jpg",
+        "alt": "rice",
+        "heading": "Rice",
+        "client": "John",
+        "brand": "kfc",
+        "branch": "mall 1",
+        "costPrice": "$19.00",
+        "price": "$19.00",
+        "action": { "edit": "edit", "delete": "delete", "view": "visibility" }
+      }
+    ]
+  }
+}

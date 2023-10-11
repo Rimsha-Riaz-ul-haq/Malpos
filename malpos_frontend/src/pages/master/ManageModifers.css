@@ -1,0 +1,14 @@
+/* Add this to your CSS file or style component */
+.min-description {
+  font-size: 0.8;
+  font-style: italic;
+  word-wrap: break-word;
+  max-width: 90%;
+}
+
+.radio-description {
+  font-size: 0.8rem; /* Adjust based on your design preference */
+  font-style: italic;
+  word-wrap: break-word; /* Wrap long words that don't fit */
+  max-width: 90%; /* Adjust based on your design preference */
+}

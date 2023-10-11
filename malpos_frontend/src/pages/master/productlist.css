@@ -1,0 +1,140 @@
+/* Custom Link Styles */
+.custom-link {
+  /* Common styles for all links */
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+/* Active Link Styles */
+.active-link {
+  background-color: #007bff; /* Set the background color for active links */
+  color: #fff; /* Set the text color for active links */
+  font-weight: bold; /* Add bold font weight to active links */
+}
+
+/* Inactive Link Styles */
+.inactive-link {
+  background-color: var(
+    --lightGray
+  ); /* Set the background color for inactive links */
+  color: #333; /* Set the text color for inactive links */
+}
+.count-badge {
+  display: inline-block;
+  width: 16px; /* Adjust the width of the count badge */
+  height: 16px; /* Adjust the height of the count badge */
+  font-size: 8px; /* Adjust the font size for the count number */
+  background-color: #007bff; /* Set the background color of the badge */
+  color: #fff; /* Set the text color of the badge */
+  border-radius: 50%; /* Make it round */
+  text-align: center;
+  line-height: 16px; /* Vertically center the text */
+  margin-left: 5px; /* Adjust spacing between the text and badge */
+}
+
+/* Hover Effect (Optional) */
+.custom-link:hover {
+  background-color: #e9ecef; /* Change the background color of links on hover */
+  color: #555; /* Change the text color of links on hover */
+}
+/* CSS for your custom modal */
+/* Center the modal vertically and horizontally */
+/* .custom-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* Custom CSS to center the modal horizontally */
+.custom-modal {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.custom-modal-header {
+  color: #fff;
+  text-align: center;
+  padding: 1rem; /* Add padding to the header */
+}
+
+.custom-modal-title {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-bottom: 0; /* Remove margin from the title */
+}
+
+.custom-modal-content {
+  padding: 1rem;
+}
+
+.custom-row {
+  margin-bottom: 2rem; /* Add margin to separate the "cards" */
+  --bs-gutter-y: 0.5rem !important;
+  background-color: #fff; /* Add a background color to the "cards" */
+  border-radius: 5px; /* Add rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for the "cards" */
+}
+
+.custom-col-2 {
+  text-align: center;
+}
+
+.custom-faDish-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.custom-h6 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem; /* Add margin between elements */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem; /* Add margin between elements */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-faPlus {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #ee3432; /* Updated color for + icon */
+}
+
+/* Increase modal width */
+.custom-modal .modal-dialog {
+  max-width: 90%; /* Adjust the width as needed */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .custom-modal-title {
+    font-size: 1.2rem;
+    padding: 0.5rem; /* Reduce padding for the title on smaller screens */
+  }
+
+  .custom-h6,
+  .custom-p {
+    font-size: 0.9rem;
+    white-space: normal;
+    text-overflow: initial;
+  }
+}
+.disabled-multi .dropdown-heading {
+  background-color: #dddddd;
+}
+.disabled-multi .clear-selected-button > svg {
+  display: none;
+}
+.disabled-multi .dropdown-heading-dropdown-arrow {
+  display: none;
+}

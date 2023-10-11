@@ -1,0 +1,104 @@
+/* SuppliersEdit.css */
+
+/* Style for the main form container */
+.suppliers-edit-form {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the labels */
+.label-field {
+  font-weight: bold;
+}
+
+/* Style for the text inputs */
+.text-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style for the switch */
+.switch {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the submit button */
+.submit-button {
+  background: #F07632;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the form header */
+.form-header {
+  background: #F07632;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-weight: bold;
+}
+/* label-field.css or your project's stylesheet */
+.label-field-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .label-field-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+ /* label-field.css or your project's stylesheet */
+.label-field-input {
+    background: #f8f8f8; /* Set the background color for inputs */
+    border: 1px solid black; /* Remove the border */
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    transition: background 0.3s;
+  }
+  
+  .label-field-input:focus {
+    outline: none;
+    background: #fff; /* Change the background color when focused */
+  }
+  
+  
+  .label-field-select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    transition: border 0.3s;
+  }
+  
+  .label-field-select:focus {
+    outline: none;
+    border-color: #F07632; /* Add a border color when focused */
+  }
+  
+  .required-asterisk {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
